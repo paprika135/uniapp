@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/My/My"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#00cec9",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "static/tabs/cart_default.png",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "static/tabs/home_selected.png",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tabs/user_default.png",
+        "pagePath": "pages/My/My",
+        "selectedIconPath": "static/tabs/user_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

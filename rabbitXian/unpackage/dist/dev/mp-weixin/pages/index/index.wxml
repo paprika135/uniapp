@@ -1,0 +1,1 @@
+<swiper><swiper-item wx:for="{{a}}" wx:for-item="pic" wx:key="b"><image src="{{pic.a}}" class="banner"></image></swiper-item></swiper>
